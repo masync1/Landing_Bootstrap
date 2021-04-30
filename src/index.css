@@ -1,13 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;   
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
 }
 
-html {
-    font-size: 62.5%;
-    font-family: 'Roboto', sans-serif;
-}
+
+
 #footer {
    background-color: #1D1D1f
 }
@@ -28,14 +28,20 @@ html {
 header section a img {
     width: 120px;
     height: auto;
-    margin-bottom: 10px;
+    margin: 10px auto;
     
 }
 
-ul .navbar-nav li a {
-    font-weight: 300;
+.nav-link {
+    font-weight: bold;
+    font-size: 2rem;
 } 
 
 .navbar__item__especial {
     color: #FFFF !important;
+}
+
+
+section .carousel-inner div img {
+    object-fit: cover;
 }
