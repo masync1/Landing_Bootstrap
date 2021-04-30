@@ -24,6 +24,7 @@
 
 .navbar {
     background: #FF4B3B;
+    margin-bottom: .2px;
 }
 header section a img {
     width: 120px;
@@ -47,4 +48,53 @@ header section a img {
 
 section .carousel-inner div img {
     object-fit: cover;
+}
+
+#carousel__container {
+    position: relative;
+}
+#carousel__container .overlay{
+    position: absolute;
+    top: 1;
+    bottom:0;
+    left: 0;
+    right: 0;
+    color: white;
+    z-index: 1;
+    background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(0,0,0,1))
+}
+#carousel__container .overlay .container,
+#carousel__container .overlay .row{
+    height: 100%;
+}
+
+.carousel__item__title {
+    font-size: 8rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.carousel__item__category {
+    font-size: 3rem;
+    text-align: left;
+}
+
+.carousel__item__button {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex !important;
+    white-space: nowrap !important;
+    border-radius: 980px !important;
+    font-size: 1.7rem !important;
+    line-height: 1.17648 !important;
+    letter-spacing: -.022em !important;
+    min-width: 26px !important;
+    padding: 14px 30px !important;
+    font-weight: 700 !important;
+    color: #1d1d1f !important;
+    background-color: #fff !important;
+    max-width: 170px;
+    height: 50px;
+
+
 }
