@@ -21,6 +21,21 @@ html {
     color: #fff;
     font-size: 2rem;
 }
-h1 {
-    color: black;
+
+.navbar {
+    background: #FF4B3B;
+}
+header section a img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+    
+}
+
+ul .navbar-nav li a {
+    font-weight: 300;
+} 
+
+.navbar__item__especial {
+    color: #FFFF !important;
 }
