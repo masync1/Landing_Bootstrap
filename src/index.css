@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+#footer {
+   background-color: #0c1633
+}
+
+.footer__container {
+    text-align: center;
+}
+.footer__container section div a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+}
