@@ -89,7 +89,7 @@ section .carousel-inner div img {
     line-height: 1.17648 !important;
     letter-spacing: -.022em !important;
     min-width: 26px !important;
-    padding: 14px 30px !important;
+    padding: 14px 25px !important;
     font-weight: 700 !important;
     color: #1d1d1f !important;
     background-color: #fff !important;
@@ -97,4 +97,64 @@ section .carousel-inner div img {
     height: 50px;
 
 
+}
+.card {
+    border-radius: 60px ;
+}
+.card__container__image{
+    width: auto;
+    height: 500px;
+}
+
+.badges {
+    text-align: right;
+    
+}
+.badges__content {
+    height: 20px;
+    font-size: 1.2rem !important;
+    border-radius: 2px !important;
+
+}
+.badges--color--primary {
+    background-color: #FF9400;
+}
+.badges--color--secondary {
+    background-color: #6056DF;
+}
+.badges--color--third {
+    background-color: #4BD964;
+}
+.badges--color--optional {
+    background-color: #FF4B3B;
+}
+.card__body {
+    margin: 0 8px;
+    text-align: justify;
+    font-size: 2rem ;
+    line-height: 20px;
+}
+.card__body__title {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.card__body__button {
+    margin-top: 30px;
+    margin-left: 32%;
+    margin-bottom: 20px;
+    white-space: nowrap ;
+    border-radius: 980px !important;
+    border: 1px solid #147ce5 !important;
+    font-size: 1.7rem !important;
+    line-height: 1.17648 !important;
+    letter-spacing: -.022em ;
+    min-width: 26px !important;
+    padding: 14px 42px !important;
+    font-weight: 700 !important;
+    color: #fff ;
+    background-color: #147ce5 !important;
+    box-shadow: 0px 4px 16px -1px rgba(0,0,0,0.49);
+    max-width: 170px;
+    height: 50px;
 }
