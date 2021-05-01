@@ -158,3 +158,30 @@ section .carousel-inner div img {
     max-width: 170px;
     height: 50px;
 }
+.about_arcade_image {
+    width: 100%;
+}
+.about__arcade__title {
+    margin-top: 20%;
+    font-weight: bold;
+    font-size: 5rem;
+    text-align: center;
+}
+.about__arcade__content{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-weight: 300;
+    text-align: left;
+    font-size: 3rem;
+    text-align: justify;
+    line-height: 37px;
+}
+.about__arcade__link{
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 37px;
+    color: #06c;
+    font-weight: bold;
+    
+    cursor: pointer;
+}
